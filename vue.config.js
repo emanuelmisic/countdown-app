@@ -1,5 +1,5 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  base: "/countdown-app/",
+  publicPath: "/countdown-app/",
   transpileDependencies: true,
 });
